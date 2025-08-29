@@ -33,7 +33,7 @@ It is build in **React**, **Vite**, and uses **TypeScript**
    ├── tsconfig.json
    ├── vite.config.ts
    └── Dockerfile
-```
+   ```
 
 
 ## Tech Stack
