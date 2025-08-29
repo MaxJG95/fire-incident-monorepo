@@ -8,7 +8,7 @@ services:
       - "4000:4000"
     volumes:
       - ./backend:/app
-      - /app/node_modules   # 👉 mantiene los node_modules internos del contenedor
+      - /app/node_modules  
     environment:
       - NODE_ENV=development
 
@@ -19,8 +19,18 @@ services:
       - "5173:5173"
     volumes:
       - ./frontend:/app
-      - /app/node_modules   # 👉 igual que el backend
+      - /app/node_modules   
     environment:
       - NODE_ENV=development
     depends_on:
       - backend
+
+  backend-go:
+    build: ./backend-go
+    container_name: backend-go
+    ports: 
+      - "4001:4001"
+    volumes: 
+      - ./backend-go/uploads:/root/uploads
+      - ./backend-go/data:/root/data
+    restart: unless-stopped

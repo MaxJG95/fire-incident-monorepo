@@ -23,7 +23,7 @@ function App() {
   };
 
   const fetchIncidents = async () => {
-    const res = await fetch("http://localhost:4000/api/incidents", {
+    const res = await fetch("http://localhost:4000/api/incidents", { //to use the go backend replace the route "http://localhost:4001/incidents"
       headers: {
         "authorization": "Bearer mysecrettoken123"
       }

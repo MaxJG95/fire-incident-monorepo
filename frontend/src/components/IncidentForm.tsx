@@ -32,7 +32,7 @@ export default function IncidentForm({ onCreated }: IncidentFormProps) {
     const data = new FormData();
     Object.entries(form).forEach(([k, v]) => v && data.append(k, v as never));
 
-    await fetch("http://localhost:4000/api/incidents", {
+    await fetch("http://localhost:4000/api/incidents", { //to use the go backend replace the route "http://localhost:4001/incidents"
       method: "POST",
       body: data,
     })
