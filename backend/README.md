@@ -22,7 +22,8 @@ It is build in **Node.js**, **Express**, and uses **SQLite** (trough [better-sql
    ```
 
 2. Structure
-   ``bash
+   
+   ```
    backend/
    │── db/ # Configuration and access to the SQLite db
    │── routes/ # Endpoints to the API
@@ -31,6 +32,7 @@ It is build in **Node.js**, **Express**, and uses **SQLite** (trough [better-sql
    │── controllers/ # Logic handlers for routes
    │── server.js # Entry point of the server
    │── package.json
+   
    ```
 
 ## Tech Stack
