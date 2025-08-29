@@ -22,7 +22,6 @@ It is build in **React**, **Vite**, and uses **TypeScript**
    ```
 
 2. Structure
-   ``bash
    frontend/
    ├── src/
    │ ├── components/ # Reusable UI components
@@ -33,7 +32,7 @@ It is build in **React**, **Vite**, and uses **TypeScript**
    ├── tsconfig.json
    ├── vite.config.ts
    └── Dockerfile
-   ```
+
 
 
 ## Tech Stack
