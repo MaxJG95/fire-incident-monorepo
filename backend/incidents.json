@@ -1,0 +1,29 @@
+[
+  {
+    "id": 1756444727412,
+    "title": "Fire at home",
+    "description": "Fire everywhere ",
+    "incident_type": "fire",
+    "location": "Guatemala City",
+    "image": "/uploads/9452107112e4bb53bb78d1bc0a58e6bf",
+    "createdAt": 1756444727412
+  },
+  {
+    "id": 1756445241926,
+    "title": "Fire alarm",
+    "description": "Fire at home",
+    "incident_type": "fire",
+    "location": "Guatemala",
+    "image": "/uploads/2056dbfb33fd0743d9e7931f3b39750b",
+    "createdAt": 1756445241926
+  },
+  {
+    "id": 1756445429212,
+    "title": "Fire at office",
+    "description": "Fire at the office in the morning",
+    "incident_type": "fire",
+    "location": "Guatemala",
+    "image": "/uploads/13344e934d63c58180560b3045962947",
+    "createdAt": 1756445429212
+  }
+]
